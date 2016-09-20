@@ -1,6 +1,6 @@
 {
   "name": "uzh-courses-with-no-module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JSON files of UZH courses that don&#39;t belong to a module",
   "license": "MIT",
   "repository": "Bestande/uzh-courses-with-no-module",
@@ -24,8 +24,7 @@
     "uzh",
     "bestande"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^0.15.2",
     "babel-cli": "^6.14.0",
