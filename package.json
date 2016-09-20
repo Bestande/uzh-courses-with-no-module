@@ -1,6 +1,6 @@
 {
   "name": "uzh-courses-with-no-module",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "JSON files of UZH courses that don&#39;t belong to a module",
   "license": "MIT",
   "repository": "Bestande/uzh-courses-with-no-module",
