@@ -10,6 +10,9 @@ exports.data = {
 };
 
 exports.getAllSeriesFromOneSerie = (semester, serie) => {
+	if (!exports.data[semester]) {
+		return [serie];
+	}
 	const dataset = exports.data[semester];
 	const keys = Object.keys(dataset);
 	for (let i = 0; i < keys.length; i++) {
@@ -18,5 +21,5 @@ exports.getAllSeriesFromOneSerie = (semester, serie) => {
 			return set;
 		}
 	}
-	return null;
+	return [serie];
 };
