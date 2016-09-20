@@ -1,4 +1,6 @@
-exports.data = {
+exports.data = {,
+	HS16: require('./data/HS16'),
+	FS16: require('./data/FS16'),
 	HS15: require('./data/HS15'),
 	FS15: require('./data/FS15'),
 	HS14: require('./data/HS14'),
